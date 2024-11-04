@@ -38,6 +38,3 @@ print("Count of a:",count_of_a)
 even_squares=[i**2 for i in range(0,11,2)] 
 print("The squares of even numbers from 1 to 10 are",even_squares) 
 
-nums=[1,2,2,3,4,4,5,6,6,7] 
-nums= list(dict.fromkeys(nums)) 
-print(nums) 
