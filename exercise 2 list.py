@@ -37,7 +37,7 @@ if 5 in numbers:
 else:
     print("not found")
 
- items = [1,2,2,3,4,4,4,5]
+items = [1,2,2,3,4,4,4,5]
 count_of_4 = items.count(4)
 print("count of 4:",count_of_4 )
 

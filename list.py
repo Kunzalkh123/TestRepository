@@ -14,3 +14,7 @@ marks = [2,45,67,89,25]
 print(marks[-2])
 print(len(marks))
 
+list1= [2,45,67,89,25]
+#list2= [45,78,674,89,55]
+#print(list1 + list2)
+print(list1[:1])

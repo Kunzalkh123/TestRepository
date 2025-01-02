@@ -36,3 +36,21 @@ student["age"] = 21
 student.pop("major")
 
 print(student)
+
+student = {
+    "name": "Eve",
+    "age": 22,
+    "major": "Biology"
+}
+print(student.keys())    
+print(student.values())  
+print(student.items()) 
+
+for key, value in student.items():
+    print(f"{key}:{value}")
+
+if "GPA" in student:
+    print("GPA is:", student["GPA"])
+else:
+    print("GPA key not found")
+

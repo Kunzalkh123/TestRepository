@@ -17,3 +17,5 @@ elif age <=64:
     print("The price is £10")
 else:
     print("The price is £6")
+
+amount= float(input())
